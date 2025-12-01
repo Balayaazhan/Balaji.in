@@ -14,9 +14,16 @@
 #     phonenumber = input("enter your Phone number:")
 #     print("Your Phone number is :"+ phonenumber)
 
-def read_write(feild):
-    phonenumber = input("enter your"+ feild + ":")
-    print("Your" + feild + ":"+ phonenumber)
+# def read_write(feild):
+#     phonenumber = input("enter your"+ feild + ":")
+#     print("Your" + feild + ":"+ phonenumber)
     
-read_write("phonenumber")
-read_write("age")
+# read_write("phonenumber")
+# read_write("age")
+
+
+def Readmark():
+    mark = input("please enter your score")
+    print("mark")
+    read_write("mark")
+

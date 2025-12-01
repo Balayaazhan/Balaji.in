@@ -1,6 +1,6 @@
 print("Hello Bala!")
 
-age = input("PLease enter your age")
+age = int(input("PLease enter your age"))
 print(age) 
 print(type(age))
 
