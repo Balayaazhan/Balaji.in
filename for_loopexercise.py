@@ -99,3 +99,9 @@
 # i=10
 # for i in range(1,17,1):
 #     print(i,"x",10,"=",i*10)
+
+# def print_table(num):
+#     for i in range(1,17,1):
+#         print(i,"x",num,"=",i*num)
+
+# print_table(2)
