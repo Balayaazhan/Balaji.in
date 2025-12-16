@@ -53,3 +53,12 @@
 #     doublenumbers.append(num)
 # print(doublenumbers)
 
+num=[1,2,3,4,5]
+n = 3
+for y in range(n):
+    last = num[-1]    
+    for x in range(len(num)-1,0,-1):
+       num[x]= num[x-1]
+    num[0]=last
+
+print(num)
